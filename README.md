@@ -1,7 +1,7 @@
 # New Employee Hiring Dashboard
 
 ####  [See Live Preview](https://hiring-dashboard.netlify.app/ "See Live Preview")
-#Features
+# Features
 -  This website is a simple new employee hiring dashboard for Hiring Managers.
 - The UI of this dashboard is very easy to understand.
 - You do not need to read the full resume to choose the correct person for your company. You can easily filter your desire employee from quick overview card in the dashboard.
