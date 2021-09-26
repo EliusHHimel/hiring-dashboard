@@ -22,7 +22,7 @@ const Applicants = () => {
 
     return (
         <div>
-            <h2 className="application-count">Application Recieved: {applicantsData.length}</h2>
+            <h2 className="application-count">Application Received: {applicantsData.length}</h2>
             <div className="dashboard-body">
                 <div className="applicants-container">
                     {
