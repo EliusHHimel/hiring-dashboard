@@ -22,16 +22,14 @@ const Choosed = (props) => {
     return (
         <div className="budget-consume-amount">
             <h4>Total People Selected: {totalChoosed}</h4>
-            <br />
             <h4>Total Budget Consumed: {total}</h4>
-            <br />
             {/* Choosen Peoples List */}
             <h4>People you've choosen to hire:</h4>
-            <ol>
+            <ul>
                 {
                     applicantName.map(name => <li key={name}>{name}</li>)
                 }
-            </ol>
+            </ul>
             <button className="confirm-hire-btn">Confirm Hire</button>
         </div>
     );
