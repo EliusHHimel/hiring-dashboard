@@ -3,4 +3,18 @@
     border: 2px solid gray;
     border-radius: 10px;
     margin-top: 10px;
+    padding: 20px;
+    position: fixed;
+    background-color: rgba(0, 128, 128, 0.205);
+}
+.confirm-hire-btn{
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px 25px;
+    background-color: #c0c0c083;
+    border-radius: 8px;
+    color: white;
+}
+.confirm-hire-btn:hover{
+    background-color: rgba(112, 128, 144, 0.534);
 }

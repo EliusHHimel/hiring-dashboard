@@ -1,3 +1,5 @@
+import { faIdCard, faUserPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Applicant.css'
 
@@ -13,10 +15,10 @@ const Applicant = (props) => {
             <h4>Position: {role}</h4>
             <h3>Salary: {salary}</h3>
             <center>
-                <button onClick={() => props.handleChoosedApplicants(props.applicant)}>Hire</button>
-                <button>View Resume</button>
+                <button onClick={() => props.handleChoosedApplicants(props.applicant)}><FontAwesomeIcon icon={faUserPlus} /> Hire</button>
+                <button><FontAwesomeIcon icon={faIdCard} /> View Resume</button>
             </center>
-        </div>
+        </div >
     );
 };
 
