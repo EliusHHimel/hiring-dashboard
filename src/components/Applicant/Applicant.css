@@ -1,13 +1,25 @@
 .applicant {
-    background-color: rgb(156, 156, 156);
+    background-color: rgba(148, 148, 148, 0.603);
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
 }
 .applicant img{
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     border-radius: 100%;
 }
 .applicant button{
-    padding: 5px 15px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #d8d7d7;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+.applicant button:hover{
+    background-color: gray;
+    color: white;
 }

@@ -2,6 +2,24 @@
     padding: 10px;
     color: white;
 }
+.header nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: end;
+    margin-right: 40px;
+}
+.header nav a{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    text-align: center;
+}
+.header nav a:hover{
+    background-color: rgba(88, 88, 88, 0.555);
+}
 .header span{
     color: crimson;
 }
