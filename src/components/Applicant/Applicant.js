@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Applicant.css'
 
+//show applicants informations components
+
 const Applicant = (props) => {
     const { img, name, age, gender, department, role, salary } = props.applicant;
     return (

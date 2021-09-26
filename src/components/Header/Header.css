@@ -3,9 +3,9 @@
     color: white;
 }
 .header nav{
+    text-align: right;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: end;
     margin-right: 40px;
 }
 .header nav a{

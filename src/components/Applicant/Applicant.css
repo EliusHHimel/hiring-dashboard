@@ -1,9 +1,10 @@
 .applicant {
-    background-color: rgba(148, 148, 148, 0.603);
+    background-color: rgba(226, 255, 249, 0.4);
     margin: 10px;
     padding: 20px;
     text-align: justify;
     border-radius: 20px;
+    border: 1px solid silver;
 }
 .applicant img{
     width: 170px;
