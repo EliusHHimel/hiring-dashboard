@@ -1,0 +1,13 @@
+.applicant {
+    background-color: rgb(156, 156, 156);
+    margin: 10px;
+    padding: 10px;
+}
+.applicant img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+.applicant button{
+    padding: 5px 15px;
+}

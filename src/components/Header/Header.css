@@ -1,0 +1,13 @@
+.header{
+    padding: 10px;
+    color: white;
+}
+.header span{
+    color: crimson;
+}
+.header h1{
+    font-size: 45px;
+}
+.header h3{
+    font-size: 16px;
+}
